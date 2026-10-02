@@ -1,0 +1,196 @@
+*{
+    margin:0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color:rgb(60, 59, 59);
+    height:60px;
+    color:whitesmoke;
+    display:flex;
+    align-items: center;
+    justify-content:space-evenly;
+
+}
+.logo{
+    background-image: url("amazon logo.png");
+    height: 100%;
+    width: 100%;
+    background-size:cover;
+    /* border:contain; */
+}
+.nav-logo{
+    height:60px;
+    width:100px;
+}
+.border{
+    border: 1px solid transparent;
+}
+.border:hover{
+    border: 1px solid white;
+}
+.first{
+    font-size: 12px;
+    /* margin-left: 15px; */
+}
+.second{
+    font-size: 15px;
+    /* margin-left: 15px; */
+}
+.add-icon{
+    display:flex;
+    /* height: 21.2px; */
+    /* width: 620px; */
+}
+.nav-search{
+     height:25px; 
+     display:flex;
+    /* justify-content:space-evenly; */
+    background-color:brown;
+     width: 620px;
+}
+.search-icon{
+    background-color: rgb(251, 88, 28);
+    height:26.4px;
+    width:30px;
+    border: size 28px;
+    text-align:center;
+    font-size:1.5rem;
+    color:black;
+
+    
+
+}
+.namor{
+    width: 64px;
+    background-color: rgb(246, 243, 245);
+    text-align:center;
+    height: 28px;
+}
+input{
+    width : 525px;
+    height : 27px;
+}
+.nav-search:hover{
+    border:2.5px solid crimson;
+}
+.nav-cart i{
+    font-size:35px;
+    /* display:flex; */
+}
+.nav-cart{
+    display:flex;
+    /* text-align:center;
+     */
+     font-size:1.4rem;
+}
+.panel{
+    display:flex;
+    background-color:black;
+    color:white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-ops p{
+    display:inline;
+    color:white;
+    margin:10px;
+}
+.panel-ops{
+    width:70%;
+}
+.hero-section{
+    bacKground-image: url("gpt_4.jpg");
+    height:300px;
+    background-size:cover;
+    display: flex;
+    justify-content:center;
+    align-items:flex-end;
+    
+
+}
+.hero-search {
+    background-color:rgb(247, 252, 252);
+    color:black;
+    height:40px;
+    display:flex;
+      align-items:center; 
+    justify-content:center; 
+    width:80%;
+    margin-bottom:25px;
+}
+.hero-search a{
+    color:brown;
+    font-weight:700;
+}
+.rank1{
+     height:400px;
+     width:22%;
+    background-color: white;
+    border:2px solid black;
+}
+.rank2{
+    height:400px;
+     width:22%;
+     background-color:white;
+     border:2px solid black;
+}
+.rank3{
+    height:400px;
+     width:22%;
+     background-color:white;
+     border:2px solid black;
+}
+.rank4{
+    height:400px;
+     width:22%;
+     background-color:white;
+     border: 2px solid black;
+
+}
+.shop-section{
+    border:2px solid black;
+    display:flex;
+    justify-content:space-evenly;
+    background-color:rgb(64, 37, 237);
+}
+.box-img1{
+    background-image: url("Fuji Gaming.jpg");
+    background-size:cover;
+    height:85%;
+}
+.rank1 p{
+    color:darkblue;
+}
+.box-img2{
+    background-image: url("Fuji_SingleImage.jpg");
+    background-size:cover;
+    height:80%;
+}
+.rank2 p{
+    color:darkblue;
+}
+.box-img3{
+    background-image: url("AMAZON\ BACKGROUND.jpg");
+    background-size:cover;
+    height:88%;
+
+}
+.rank3 p{
+    color:darkblue;
+}
+.box-img4{
+     background-image: url("Home_Flip_Summer.jpg");
+    background-size:cover;
+    height:88%;
+}
+.rank4 p{
+    color:darkblue;
+}
+.pannel1{
+    background-color:black;
+    color:azure;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
